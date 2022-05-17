@@ -1,0 +1,285 @@
+:root {
+  --theme-color: #fff;
+  --primary-color: #5B4A91;
+  --secundary-color: #F7C331;
+  --text-color-inverse: #124f88;
+  --text-color: #000;
+  --navbar-shallow-color: #e5e5e5;
+  --menu-mobile-background-color: #5B5B5B;
+}
+html {
+  scroll-behavior: smooth;
+}
+section[id] {
+  scroll-margin-top: 70px;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+ /* background-image: radial-gradient(circle at 5.21% 94.79%, #87525a 0, #834b59 8.33%, #7e4359 16.67%, #783a59 25%, #703159 33.33%, #662859 41.67%, #591f59 50%, #4a175a 58.33%, #38135b 66.67%, #1f125d 75%, #00125f 83.33%, #001460 91.67%, #001461 100%) ;*/
+  background-image: url(/img/background.jpg);
+  background-repeat: no-repeat;
+  color: var(--text-color);
+  padding: 30px;
+}
+
+h1,h2,h3,h4 {
+  text-align: center;
+  color: var(--text-color);
+}
+
+#Periféricos h3{
+	text-align: left;
+	padding: 0px 40px;
+}
+.peri-entrada {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.peri-entrada img{
+	width: 150px;
+	
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color-inverse);
+}
+
+.grp {
+text-align: center;
+}
+
+footer {
+  font-size: 10px;
+}
+
+/*Inicio section Procesador*/
+
+#procesador{
+  align-items: center;
+  align-content: center;
+}
+.caja-procesador{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*boton modal Intel*/
+.btn-img_intel{
+	width: 100%;
+	cursor: pointer;
+	transition: all 300ms ease;
+}
+
+.boton-modal_intel{
+	width: 300px;	
+}
+
+/*fin boton modal Intel*/
+
+/*ventana modal Intel*/
+
+#btn-modal_intel{
+	display: none;	
+}
+
+.container-modal_intel{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0; left: 0;
+	background-color: rgba(144, 148, 150, 0.8);
+	display: none;
+	align-items: center;
+	justify-content: center;
+	z-index: 100;
+}
+
+#btn-modal_intel:checked ~ .container-modal_intel{
+	display: flex;
+}
+
+.content-modal_intel{
+	width: 100%;
+	max-width: 400px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.content-modal_intel h2 {
+	margin-bottom: 15px;
+}
+
+.content-modal_intel p{
+	padding: 15px 0px;
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.content-modal_intel .btn-cerrar_intel{
+	widows: 100px;
+	margin-top: 15px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.content-modal_intel .btn-cerrar_intel label{
+	padding: 7px 10px;
+	background-color: #5488a3;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 300ms ease;
+}
+
+.content-modal_intel .btn-cerrar_intel label:hover{
+	background-color: #185e83;
+}
+
+.cerrar-modal_intel{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 0; left: 0;
+	z-index: -1;
+}
+/*fin ventana modal Intel*/
+
+/*boton modal AMD*/
+.btn-img_amd{
+	width: 100%;
+	cursor: pointer;
+	transition: all 300ms ease;
+}
+
+.boton-modal_amd{
+	width: 300px;	
+}
+
+/*fin boton modal AMD*/
+
+/*ventana modal AMD*/
+
+#btn-modal_amd{
+	display: none;	
+}
+
+.container-modal_amd{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0; left: 0;
+	background-color: rgba(144, 148, 150, 0.8);
+	display: none;
+	align-items: center;
+	justify-content: center;
+	z-index: 100;
+}
+
+#btn-modal_amd:checked ~ .container-modal_amd{
+	display: flex;
+}
+
+.content-modal_amd{
+	width: 100%;
+	max-width: 400px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.content-modal_amd h2 {
+	margin-bottom: 15px;
+}
+
+.content-modal_amd p{
+	padding: 15px 0px;
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.content-modal_amd .btn-cerrar_amd{
+	widows: 100px;
+	margin-top: 15px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.content-modal_amd .btn-cerrar_amd label{
+	padding: 7px 10px;
+	background-color: #5488a3;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 300ms ease;
+}
+
+.content-modal_amd .btn-cerrar_amd label:hover{
+	background-color: #185e83;
+}
+
+.cerrar-modal_amd{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 0; left: 0;
+	z-index: -1;
+}
+/*fin ventana modal AMD*/
+
+/*Diseño responsivo*/
+@media screen and (max-width:800px){
+  body{
+	  padding: 10px;
+  }
+	.caja-procesador{
+  display: block;
+  align-items: center;
+  align-content: center;
+  }
+
+  #Periféricos h3{
+	text-align: left;
+	padding: 0px 20px;
+}
+.peri-entrada img{
+	width: 100px;
+}
+  
+  .boton-modal_intel{
+    padding: 10%;
+  }
+  
+  .boton-modal_amd{
+    padding: 10%;
+  }
+  
+  .content-modal_intel{
+	width: 100%;
+	max-width: 340px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+  .content-modal_amd{
+	width: 100%;
+	max-width: 340px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+  .btn-img_intel{
+	width: 100%;
+}
+
+  .btn-img_amd{
+	width: 100%;
+}
+}
+/*Fin section Procesador*/

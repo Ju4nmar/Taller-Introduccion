@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taller 2</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <script defer src="js/app.js"></script>
+</head>
+
+<body>
+  <header class="topheader">
+    <nav class="topnav">
+
+      <button class="open-menu" aria-label="Abrir menú">
+        <img src="img/hamburger-icon.svg" alt="abrir menú" />
+      </button>
+      <ul class="menu">
+        <button class="close-menu" aria-label="Cerrar menú">
+          <img src="img/close-icon.svg" alt="cerrar menú" />
+        </button>
+        <li><a href="#Inicio">Inicio</a></li>
+        <li><a href="#Componentes">Componentes</a></li>
+        <li><a href="#Procesador">Procesador</a></li>
+        <li><a href="#Periféricos">Periféricos</a></li>
+        <li><a href="#Grupo">Grupo</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br><br>
+
+  <!--Titulo -->
+  <section class="titulo" id="Inicio">
+    <h1>Componentes y Prisfericos</h1>
+
+    <!-- espacio para imagen de computador-->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Fugit ipsa pariatur placeat dignissimos eos aperiam?
+      Libero mollitia qui voluptatibus quo. Dolorem quas ratione commodi molestiae nemo soluta fugiat perferendis
+      minima!
+      Sapiente similique praesentium officia cum saepe reprehenderit blanditiis consequatur nostrum, eveniet quia velit,
+      ullam vitae assumenda doloribus aliquid placeat, ex labore, in. Ut facere, quis nesciunt rerum vero autem tempore.
+      Tenetur, asperiores suscipit id et ullam dolore adipisci nemo quis officiis, numquam accusantium pariatur. Placeat
+      ipsam, est sunt rerum fuga doloribus pariatur, corporis iusto saepe voluptate ipsum hic dolorem! Dolorum.</p>
+  </section>
+
+  <!-- Componentes -->
+  <section id="Componentes">
+    <article>
+      <h2>Componentes</h2>
+
+      <!-- espacio para imagenes de componentes-->
+
+      <p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Ipsa, non alias nam placeat labore libero excepturi,
+        neque inventore ut asperiores nobis saepe sit eveniet. Modi consequuntur blanditiis possimus odit ipsum.
+        Fugiat atque, repudiandae sit dicta suscipit at, iure reiciendis veritatis, consequuntur fuga porro accusamus
+        unde quam minus obcaecati maiores consequatur est veniam officia cupiditate voluptatum adipisci voluptatibus.
+        Aspernatur, ab, nam.
+        Cupiditate aut magnam tempore debitis, eos! Est dolor blanditiis reprehenderit vero suscipit, quas consequatur
+        pariatur. Magnam doloremque blanditiis fugiat ad recusandae totam, iste nostrum repellendus autem libero fugit
+        delectus harum?
+        At assumenda fugit magnam cumque libero dolores consectetur, ullam quasi illum soluta non explicabo odio
+        suscipit maxime expedita nam eius unde necessitatibus quos! Aliquam amet et totam assumenda doloribus
+        perferendis.
+        Aspernatur, deserunt vero placeat iure, nesciunt corrupti architecto explicabo quos velit quaerat optio
+        inventore assumenda blanditiis accusamus consequatur enim reprehenderit. Deleniti cupiditate voluptas cumque a
+        quod quaerat, doloribus error suscipit!</p>
+    </article>
+  </section>
+
+  <!-- Procesador -->
+  <section id="Procesador">
+    <h2>Procesador</h2>
+    <p>El procesador es el “cerebro” del ordenador. Es el componente encargado de la ejecución de las instrucciones de los programas. Todos los ordenadores tienen al menos un procesador. El procesador está formado por un conjunto de registros que almacenen datos, una unidad  aritmético-lógica que realiza operaciones con ellos y una unidad de control que se encarga de coordinar a todos los componentes. Un reloj interno determina la velocidad de trabajo de estos elementos internos.</p>
+    <br>
+    <h3>Marcas mas reconocidas</h3>
+    <br><br>
+    <div class="caja-procesador">
+      <article class="intel">
+        <!--Boton Intel-->
+        <div class="boton-modal_intel">
+          <h3>Procesador Intel</h3>
+          <br>
+          <label for="btn-modal_intel">
+            <img src="img/Intel.png" alt="Procesador Intel" class="btn-img_intel">
+          </label>
+        </div>
+        <!--Fin Boton Intel-->
+
+        <!--Ventana Modal Intel-->
+        <input type="checkbox" id="btn-modal_intel">
+        <div class="container-modal_intel">
+          <div class="content-modal_intel">
+            <h2>Intel</h2>
+            <p>En cuanto a la comercialización de ordenadores, el consumidor medio reconoce a Intel como la mejor
+              empresa de procesadores del mundo. Sin embargo, esto no significa que Intel sea la mejor marca, sino que
+              es la más conocida.
+              Intel es un fabricante de procesadores que tiene una gran alianza con Microsoft, la creadora de Windows.
+              Por otro lado, son los chips oficiales de los ordenadores de Apple. En definitiva, es una marca que,
+              prácticamente, copa el sector de los ordenadores personales.
+              Tiene gamas para todo tipo, desde los m3 para ultrabooks, hasta la familia Intel Core X para servidores o
+              tareas muy pesadas. Ofrece soluciones para casa y para empresas, lo que supone abarcar casi todo el
+              mercado de ordenadores.
+              Desde hace años, su principal rival era AMD, aunque ésta no ofrecía tantas soluciones profesionales,
+              centrándose en el ordenador personal.
+            </p>
+            <div class="btn-cerrar_intel">
+              <label for="btn-modal_intel">cerrar</label>
+            </div>
+            <label for="btn-modal_intel" class="cerrar-modal_intel"></label>
+
+          </div>
+        </div>
+        <!--Fin Ventana Modal Intel-->
+      </article>
+      <article class="amd">
+        <!--Boton Amd-->
+        <div class="boton-modal_amd">
+          <h3>Procesador AMD</h3>
+          <br>
+          <label for="btn-modal_amd">
+            <img src="img/AMD.png" alt="Procesador" class="btn-img_amd">
+          </label>
+        </div>
+        <!--Fin Boton Amd-->
+
+        <!--Ventana Modal Amd-->
+        <input type="checkbox" id="btn-modal_amd">
+        <div class="container-modal_amd">
+          <div class="content-modal_amd">
+            <h2>AMD</h2>
+            <p>Fuera del sector profesional, encontramos a AMD como la única competidora de Intel, enfocándose en la
+              relación precio-rendimiento. Como los procesadores de Intel siempre han sido más caros que los AMD, ésta
+              empresa se ha enfocado a ofrecer precios competitivos sin renunciar al rendimiento. El objetivo de AMD
+              principal eran las oficinas y los gamers.
+              Con el paso del tiempo, AMD ha movido ficha en el sector profesional con su gama Threadripper,
+              procesadores con 32 núcleos y 64 hilos. Son procesadores que funcionan muy bien para todo, pero está
+              centrado en la multitarea más exigente, como son renderizados, ediciones, etc. Rivalizan con la familia
+              Core X de Intel y le plantan cara sin pudor.
+
+            </p>
+            <div class="btn-cerrar_amd">
+              <label for="btn-modal_amd">cerrar</label>
+            </div>
+            <label for="btn-modal_amd" class="cerrar-modal_amd"></label>
+
+          </div>
+        </div>
+        <!--Fin Ventana Modal Amd-->
+      </article>
+    </div>
+  </section>
+
+  <!-- Periféricos -->
+  <section id="Periféricos">
+    <article>
+      <h2>Periféricos</h2>
+      <!-- espacio para imagenes de los perisfericos-->
+      <p>Los perisférico son dispositivos externos al ordenador que está conectado a él pero que no es parte del equipo
+        principal y que permite la entrada y salida de información desde o hacia el propio ordenador.
+        En resumen, son dispositivos que se conectan al ordenador para meter o sacar información. <br>
+        Hay 4 tipos de periféricos según su uso, de entrada, de salida, de entrada/salida y de almacenamiento.
+      </p>
+    </article>
+    <article>
+      <h3>Periféricos de entrada</h3>
+      <div class="peri-entrada">
+        <img src="/img/teclado.png" alt="teclado">
+        <img src="/img/mouse.png" alt="mouse">
+        <img src="/img/camera.png" alt="camara">
+        <img src="/img/microphone.png" alt="microphone">
+        <img src="/img/scanner.png" alt="scanner">
+      </div>
+      <p>Un dispositivo o periférico de entrada es cualquier elemento de hardware que envía datos (información) a un
+        ordenador, que le permite interactuar con el y controlarlo. Los dispositivos de entrada son esenciales para
+        interactuar con el ordenador.
+        <br>
+        Las más conocidos y usados son el teclado, desde el que enviamos información al pulsar sus teclas, y el ratón,
+        con el que enviamos información al hacer clic en sus botones.
+        <br><br>
+        Existen muchos otros dispositivos de entrada para introducir otros tipos de información, como textos, números,
+        sonido, gráficos, vídeo, movimiento, calor etc.
+      </p>
+    </article>
+    <article>
+      <h3>Periféricos de salida</h3>
+      <p>Un dispositivo o periférico de salida es cualquier periférico que recibe datos desde un ordenador. Puede
+        imprimir, visualizar o enviar señales que son fácilmente interpretadas por el usuario.
+        <br>
+        Básicamente, un dispositivo de salida sirve para mostrar al operador de la computadora las operaciones que acaba
+        de hacer.
+        <br><br>
+        Los más usados: los monitores, las impresoras, los altavoces, proyector digital, GPS (Abreviatura de Sistema de
+        Posicionamiento Global).
+      </p>
+    </article>
+    <article>
+      <h3>Periféricos de entrada y salida</h3>
+      <p>Estos dispositivos permiten enviar información al ordenador, pero también permiten recibirla desde el
+        ordenador. los dispositivos de entrada/salida son capaces de enviar los datos (entrada) a un ordenador y recibir
+        datos desde un ordenador (salida).
+        <br><br>
+        Los más utilizados: <br>
+        <b>Modem:</b> Un módem es un MOdulador / DEModulador de señal, o sea, codifica y decodifica datos en una
+        conexión. <br><br>
+        <b>Router:</b> Un router es un dispositivo que envía o/y recibe datos en forma de paquetes por una red de
+        ordenadores, por ejemplo por internet.
+        <br><br>
+        Y otros como; pantallas táctiles, cascos de realidad virtual, fax, impresoras multifunción.
+
+      </p>
+    </article>
+    <article>
+      <h3>Periféricos de Almacenamiento</h3>
+      <p>Se utilizan para almacenar información. La mayoría son de entrada/salida ya que se puede extraer información del ordenador y guardarla en el dispositivo, pero también se puede volcar sobre el ordenador la información almacenada en ellos.
+        <br>
+        <br>
+        Como son: Lector/Grabador de CD y DVD, Memorias USB, Disco Duro Externo.
+      </p>
+    </article>
+    <article>
+      <h3>Puertos serie</h3>
+      <p>El puerto serie es una interfaz de comunicación digital de datos en la que la información se transmite de forma
+        secuencial bit a bit por los conductores.
+        <br>
+        De esta forma un puerto serie debe enviar toda la información en un bit detrás de otro, la interfaz de datos en
+        serie o puerto serial trabaja bajo el estándar RS-232.
+
+        <i> (<b>RS-232</b>
+          También conocido como EIA/TIA RS-232C, es una interfaz que designa una norma para el intercambio de datos
+          binarios serie entre un DTE (Data Terminal Equipment), como por ejemplo una computadora, y un DCE (Data
+          Comunication Equipment), por ejemplo un módem.)</i>
+
+        <br><br> Tenemos tres tipos de comunicación en serie:
+        <li><b>Simplex:</b> la transmisión es unidireccional, es decir, hay un solo emisor y un solo receptor, por
+          ejemplo, en comunicaciones de radiodifusión.</li>
+        <li><b>Dúplex:</b> cada extremo puede ser transmisor y receptor de forma simultánea, así que se utilizan bien
+          cables distintos para enviar y recibir, o bien ondas con distintas frecuencias para no mezclarse.</li>
+        <li><b>Semi-duplex:</b> es similar a la transmisión dúplex, pero cuando uno transmite el otro escucha, por
+          ejemplo, dos walki talkies.</li>
+      </p>
+    </article>
+    <article>
+      <h3>Puerto Ps/2</h3>
+      <p>Este puerto fue implementado por primera vez en PCs IBM en 1987 y aún a día de hoy lo encontramos en placas actuales. Su función es la de conectar ratones o teclados en una interfaz independiente a la USB. Cuenta con un total de 6 pines siendo de tipo circular y en el sistema operativo lo podremos encontrar como puerto COM</p>
+    </article>
+  </section>
+
+  <!-- Grupo de trabajo-->
+
+  <section id="Grupo"></section>
+  <h4>Grupo 7 de Introduccion a Ingenieria</h4>
+  <p class="grp">creado por Juan M Hernandez, Luis F Garcia, Ricardo Banguero, kevin A Preciado y Whalinton Viveros</p>
+  <footer>
+    <div id="copyright">Copyright&copy; 2022 - Página creada por JMH - Todos los derechos reservados</div>
+    <a href="https://www.freepik.es/vectores/abstracto-azul">Vector de abstracto azul creado por kjpargeter -
+      www.freepik.es</a>
+  </footer>
+
+</body>
+
+</html>
