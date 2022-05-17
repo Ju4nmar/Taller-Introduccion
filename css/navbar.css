@@ -59,7 +59,8 @@
     align-items: center;
     /*background-color: var(--menu-mobile-background-color);
       background-image: radial-gradient(circle at 68.3% 118.3%, #ffc31a 0, #ffb42b 8.33%, #ffa338 16.67%, #ff9143 25%, #ff7d4b 33.33%, #ff6851 41.67%, #f25353 50%, #d94053 58.33%, #c23054 66.67%, #ae2455 75%, #9d1c56 83.33%, #8e1859 91.67%, #81195d 100%);*/
-    background-image: url(/img/gradient.jpg);
+      background: rgb(80,114,167);
+      background: linear-gradient(153deg, rgba(80,114,167,1) 16%, rgba(100,100,100,1) 61%, rgba(80,114,167,1) 90%);
     height: 100%;
     overflow-y: auto;
 

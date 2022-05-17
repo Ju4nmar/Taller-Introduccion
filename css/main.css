@@ -15,9 +15,8 @@ section[id] {
 }
 body {
   font-family: 'Montserrat', sans-serif;
- /* background-image: radial-gradient(circle at 5.21% 94.79%, #87525a 0, #834b59 8.33%, #7e4359 16.67%, #783a59 25%, #703159 33.33%, #662859 41.67%, #591f59 50%, #4a175a 58.33%, #38135b 66.67%, #1f125d 75%, #00125f 83.33%, #001460 91.67%, #001461 100%) ;*/
-  background-image: url(/img/background.jpg);
-  background-repeat: no-repeat;
+  background-image: url(/img/fondo.png);
+  background-repeat: repeat;
   color: var(--text-color);
   padding: 30px;
 }
@@ -246,8 +245,14 @@ footer {
 	text-align: left;
 	padding: 0px 20px;
 }
+.peri-entrada{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .peri-entrada img{
-	width: 100px;
+	
+	width: 70px;
 }
   
   .boton-modal_intel{
@@ -281,5 +286,6 @@ footer {
   .btn-img_amd{
 	width: 100%;
 }
+
 }
 /*Fin section Procesador*/
