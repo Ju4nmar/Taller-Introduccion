@@ -49,6 +49,42 @@ h1,h2,h3,h4 {
 .peri-salida img {
 	width: 150px;
 }
+.peri-ent_sal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;	
+}
+.peri-ent_sal img {
+	width: 150px;
+}
+.peri-alm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.peri-alm img{
+	width: 150px;
+}
+.p-serie{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.p-serie img{
+	width: 150px;
+}
+.ps2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.ps2 img{
+	width: 100px;
+}
 
 a {
   text-decoration: none;
@@ -270,7 +306,35 @@ footer {
 .peri-salida img {
 	width: 70px;
 }
-
+.peri-ent_sal{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.peri-ent_sal img {
+	width: 70px;
+}
+.peri-alm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.peri-alm img{
+	width: 70px;
+}
+.p-serie{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.p-serie img{
+	width: 90px;
+}
+.ps2 img{
+	width: 70px;
+}
   .boton-modal_intel{
     padding: 10%;
   }
