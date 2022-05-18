@@ -58,7 +58,7 @@ h1,h2,h3,h4 {
 .peri-ent_sal img {
 	width: 150px;
 }
-.peri-alm {
+.peri-alm{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -314,7 +314,7 @@ footer {
 .peri-ent_sal img {
 	width: 70px;
 }
-.peri-alm {
+.peri-alm{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -331,6 +331,12 @@ footer {
 }
 .p-serie img{
 	width: 90px;
+}
+.ps2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 .ps2 img{
 	width: 70px;
