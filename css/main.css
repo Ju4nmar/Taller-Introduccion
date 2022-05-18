@@ -70,6 +70,28 @@ h4 {
 	width: 400px;
 }
 
+.fuente-poder {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.fuente-poder img {
+	width: 400px;
+}
+
+.placa-madre {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.placa-madre img {
+	width: 400px;
+}
+
 .procesador {
 	display: flex;
 	justify-content: center;
@@ -401,6 +423,14 @@ footer {
 	}
 
 	.ssd img {
+		width: 200px;
+	}
+
+	.fuente-poder img {
+		width: 200px;
+	}
+
+	.placa-madre img {
 		width: 200px;
 	}
 
