@@ -40,6 +40,15 @@ h1,h2,h3,h4 {
 	width: 150px;
 	
 }
+.peri-salida {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.peri-salida img {
+	width: 150px;
+}
 
 a {
   text-decoration: none;
@@ -250,11 +259,18 @@ footer {
 	justify-content: center;
 	align-items: center;
 }
-.peri-entrada img{
-	
+.peri-entrada img{	
 	width: 70px;
 }
-  
+.peri-salida{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.peri-salida img{
+	width: 70px;
+}  
+
   .boton-modal_intel{
     padding: 10%;
   }
