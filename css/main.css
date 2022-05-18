@@ -15,7 +15,7 @@ section[id] {
 }
 body {
   font-family: 'Montserrat', sans-serif;
-  background-image: url('/img/fondo.png');
+  background-image: url('https://i.postimg.cc/vmMNG7t0/fondo.png');
   background-repeat: repeat;
   color: var(--text-color);
   padding: 30px;
