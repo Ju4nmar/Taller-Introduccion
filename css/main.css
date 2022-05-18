@@ -25,7 +25,50 @@ h1,h2,h3,h4 {
   text-align: center;
   color: var(--text-color);
 }
-
+.titulo h3 {
+	text-align: left;
+	padding: 30px;
+}
+.ram {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;	
+}
+.ram img{
+	width: 400px;
+}
+.hdd{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.hdd img{
+	width: 300px;
+}
+.ssd{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.ssd img{
+	width: 400px;
+}
+.procesador{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.procesador img{
+	width: 300px;
+}
+.func-pro h3 {
+	text-align: left;
+	padding: 30px;
+}
 #Periféricos h3{
 	text-align: left;
 	padding: 0px 40px;
@@ -285,6 +328,54 @@ footer {
   align-items: center;
   align-content: center;
   }
+  .ram {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;	
+}
+.ram img{
+	width: 200px;
+}
+.titulo h3 {
+	text-align: left;
+	padding: 15px;
+}
+.hdd{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.hdd img{
+	width: 150px;
+}
+.ssd{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.ssd img{
+	width: 200px;
+}
+.procesador{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.procesador img{
+	width: 150px;
+}
+.func-pro h3 {
+	text-align: left;
+	padding: 15px;
+}
+#Periféricos h3{
+	text-align: left;
+	padding: 0px 40px;
+}
 
   #Periféricos h3{
 	text-align: left;
